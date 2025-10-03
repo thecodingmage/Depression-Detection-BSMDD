@@ -92,21 +92,17 @@ The primary code for this project is in the Jupyter Notebook inside the `noteboo
 
 ---
 
-## 📊 Results
+## 📊 Results Summary
 
-The BiGRU model with custom Word2Vec embeddings achieved the following performance on the test set:
+This table provides a high-level comparison of all models experimented with in this project. For detailed results of each model, please see the corresponding report in the `/reports` directory.
 
-| Metric    | Score  |
-|-----------|--------|
-| **F1-Score** | **0.9145** |
-| Accuracy  | 0.9133 |
-| Precision | 0.9023 |
-| Recall    | 0.9270 |
+| Model Experiment      | Key Metric (F1-Score) | Detailed Report                                      |
+|-----------------------|-----------------------|------------------------------------------------------|
+| **BiGRU + Word2Vec** | **0.9145** | [View Report](./reports/bigru_word2vec_report.md)    |
+| *Your Next Model Name*| *Coming Soon* |                                                      |
 
-### Complexity Analysis
-* **Training Time:** ~28.1 minutes
-* **Average Inference Time:** ~1.58 ms / sample
-* **Model Size on Disk:** 22.50 MB
+
+
 
 ---
 
