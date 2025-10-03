@@ -1,0 +1,7 @@
+pandas
+openpyxl
+numpy
+nltk
+gensim
+scikit-learn
+tensorflow
