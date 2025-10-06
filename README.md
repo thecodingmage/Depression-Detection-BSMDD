@@ -92,17 +92,30 @@ The primary code for this project is in the Jupyter Notebook inside the `noteboo
 
 ---
 
-## 📊 Results Summary
+## Results Summary
 
 This table provides a high-level comparison of all models experimented with in this project. For detailed results of each model, please see the corresponding report in the `/reports` directory.
 
-| Model Experiment      | Key Metric (F1-Score) | Detailed Report                                      |
-|-----------------------|-----------------------|------------------------------------------------------|
-| **BiGRU + Word2Vec** | **0.9145** | [View Report](./reports/bigru_word2vec_report.md)    |
-| *Your Next Model Name*| *Coming Soon* |                                                      |
-
-
-
+| Model Experiment | Key Metric (F1-Score) | Detailed Report |
+| :--- | :---: | :---: |
+| **BiGRU + Word2Vec** | **0.9145** | [View Report](./reports/bigru_word2vec_report.md) |
+| **BiLSTM + Word2Vec** | **0.9105** | [View Report](./reports/bilstm_word2vec_report.md) |
+| **GRU + Word2Vec** | **0.9100** | [View Report](./reports/gru_word2vec_report.md) |
+| **BiLSTM + GloVe (Fine-Tuned)** | **0.8960** | [View Report](./reports/bilstm_glove_finetuned_report.md) |
+| **BiLSTM + FastText (Fine-Tuned)** | **0.8936** | [View Report](./reports/bilstm_fasttext_finetuned_report.md) |
+| **LSTM + GloVe (Fine-Tuned)** | **0.8792** | [View Report](./reports/lstm_glove_finetuned_report.md) |
+| **LSTM + FastText (Fine-Tuned)** | **0.8739** | [View Report](./reports/lstm_fasttext_finetuned_report.md) |
+| **GRU + GloVe (Fine-Tuned)** | **0.8724** | [View Report](./reports/gru_glove_finetuned_report.md) |
+| **GRU + FastText (Fine-Tuned)** | **0.8646** | [View Report](./reports/gru_fasttext_finetuned_report.md) |
+| **LSTM + Word2Vec (Fine-Tuned)** | **0.8314** | [View Report](./reports/lstm_word2vec_report.md) |
+| **BiGRU + GloVe** | **0.8168** | [View Report](./reports/bigru_glove_report.md) |
+| **BiLSTM + GloVe** | **0.8008** | [View Report](./reports/bilstm_glove_report.md) |
+| **BiGRU + FastText** | **0.7890** | [View Report](./reports/bigru_fasttext_report.md) |
+| **BiLSTM + FastText** | **0.7859** | [View Report](./reports/bilstm_fasttext_report.md) |
+| **LSTM + GloVe** | 0.40 | [View Report](./reports/lstm_glove_report.md) |
+| **GRU + GloVe** | 0.39 | [View Report](./reports/gru_glove_report.md) |
+| **GRU + FastText** | 0.38 | [View Report](./reports/gru_fasttext_report.md) |
+| **LSTM + FastText** | 0.38 | [View Report](./reports/lstm_fasttext_report.md) |
 
 ---
 
